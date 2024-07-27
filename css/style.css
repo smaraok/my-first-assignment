@@ -1,0 +1,168 @@
+body
+{
+font-family: sans-serif;
+padding: 0;
+margin: 0;
+background-color: #8e8b8b;
+direction: rtl;
+
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-color: aliceblue;
+    color: #353637;
+    padding: 30px;
+    min-height: 70px;
+    border-bottom: #32a0c2 5px solid;
+}
+header a
+{
+    color: black;
+    text-decoration: none;
+    font-size: 19px;
+}
+header li{
+    float: right;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #brand
+{
+    float: right;
+}
+header #brand h1
+{
+    margin: 0;
+    color: #32a0c2;
+}
+header nav
+{
+    float: left;
+    margin-top: 10px;
+}
+header .current a
+{
+    color: #32a0c2;
+    font-weight: bold;
+}
+header a:hover
+{
+    color: rgb(182, 25, 158);
+    font-weight: bold;
+}
+#mainform{
+    color:rgb(39, 6, 6);
+    font-size: 30px;
+     
+}
+#showcase
+{
+    min-height: 400px;
+    background: url("../image/book-4970481_640.jpg")no-repeat center;
+    background-size: cover;
+}
+#newsletter
+{
+    padding: 15px;
+    color: #ffffff;
+    background: #353637;
+}
+#newsletter h1
+{
+    float: right;
+}
+#newsletter form
+{
+    float: left;
+    margin: 15px;
+}
+#newsletter input[type="email"]
+{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+.button
+{
+    height: 38px;
+    background: #cccccc;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #353637;
+}
+#boxes .box
+{
+    float: right;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #32a0c2;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+@media(max-width:768px)
+{
+    header #brand,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box
+    {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header
+    {
+        padding-bottom: 20px;
+    }
+    #newsletter .button
+    {
+        display: block;
+        width: 100%;
+
+    }
+    #newsletter form input[type="email"]
+    {
+        width: 100%;
+        margin-right: 0%;
+    }
+    }
+    table{
+        width: 100%;
+        margin-left: 50px;
+    }
+    th{
+        background: #830c7b;color: white;
+        height: 50px;
+    
+    }
+    td{
+        background: #f56cec;
+        height: 30px;
+        text-align: center;
+        
+    } 
+    h2{text-align: center;color: #830c7b;}
+    p{text-align: center;color: #830c7b;}
+    ul{
+        text-align:center;color: #002a9c;
+    }
+ 
